@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Food_Facility_Inspections.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessId" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="ZipCode" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="PhoneNumber" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="InspectionId" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="InspectionType" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="ViolationCodes" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="ViolationDescriptions" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="Location" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="174" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="BusinessId" selected="True" />
+            <Field field="Name" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="ZipCode" selected="True" />
+            <Field field="PhoneNumber" selected="True" />
+            <Field field="InspectionId" selected="True" />
+            <Field field="Date" selected="True" />
+            <Field field="InspectionType" selected="True" />
+            <Field field="ViolationCodes" selected="True" />
+            <Field field="ViolationDescriptions" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessId" size="9" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="String" />
+            <Field name="Name" size="70" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="Address" size="32" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="City" size="17" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="State" size="2" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="String" />
+            <Field name="ZipCode" size="10" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="String" />
+            <Field name="PhoneNumber" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="Int64" />
+            <Field name="InspectionId" size="9" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="String" />
+            <Field name="Date" size="10" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="String" />
+            <Field name="InspectionType" size="9" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="String" />
+            <Field name="ViolationCodes" size="109" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="ViolationDescriptions" size="254" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+            <Field name="Location" size="86" source="File: C:\Users\Kumar Mehul\Downloads\DADABI\Midterm Project\Food_Facility_Inspections.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BusinessId" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="ZipCode" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="InspectionId" selected="True" />
+            <SelectField field="Date" selected="True" />
+            <SelectField field="InspectionType" selected="True" />
+            <SelectField field="ViolationCodes" selected="True" />
+            <SelectField field="ViolationDescriptions" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KUMARM~1\AppData\Local\Temp\Engine_28520_bc83864e49d3f84dbd4b7f9bf31649fb_\Engine_28520_5caf7ba12dcdad45b8d6b8606b8138ef~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">BusinessId=True,Name=True,Address=True,City=True,State=True,ZipCode=True,PhoneNumber=True,InspectionId=True,Date=True,InspectionType=True,ViolationCodes=True,ViolationDescriptions=True,Location=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="150" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Sonoma_FoodInspection_Profiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="9b4f5c1c-e7ee-4057-bc7f-8c8023a4389c" />
+      <Telemetry>
+        <PreviousWorkflowId value="787b5a0c-a227-4594-8f0a-990da4b48024" />
+        <OriginWorkflowId value="787b5a0c-a227-4594-8f0a-990da4b48024" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
