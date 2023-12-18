@@ -1,0 +1,23 @@
+{
+  "itemId" : "_lThHIHtpEe6RwvLWQ_eFcg",
+  "contextList" : [ {
+    "contextName" : "dev",
+    "repoId" : "_ZuoHoHtpEe6RwvLWQ_eFcg",
+    "parameterList" : [ {
+      "id" : "_ZvN9h3tpEe6RwvLWQ_eFcg",
+      "name" : "sonoma_food_inspection_File"
+    }, {
+      "id" : "_ZvN9iHtpEe6RwvLWQ_eFcg",
+      "name" : "sonoma_food_inspection_Encoding"
+    }, {
+      "id" : "_ZvN9iXtpEe6RwvLWQ_eFcg",
+      "name" : "sonoma_food_inspection_Header"
+    }, {
+      "id" : "_ZvN9intpEe6RwvLWQ_eFcg",
+      "name" : "sonoma_food_inspection_FieldSeparator"
+    }, {
+      "id" : "_ZvN9i3tpEe6RwvLWQ_eFcg",
+      "name" : "sonoma_food_inspection_RowSeparator"
+    } ]
+  } ]
+}

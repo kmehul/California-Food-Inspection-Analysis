@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="true" name="Default" xmi:id="_ZvN9gHtpEe6RwvLWQ_eFcg">
+    <contextParameter comment="" name="sonoma_food_inspection_File" prompt="sonoma_food_inspection_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Kumar Mehul/Downloads/DADABI/Sonoma Food Inspection/Food_Facility_Inspections.csv" xmi:id="_ZvN9gXtpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_Encoding" prompt="sonoma_food_inspection_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_ZvN9gntpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_Header" prompt="sonoma_food_inspection_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_ZvN9g3tpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_FieldSeparator" prompt="sonoma_food_inspection_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_ZvN9hHtpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_RowSeparator" prompt="sonoma_food_inspection_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_ZvN9hXtpEe6RwvLWQ_eFcg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_ZvN9hntpEe6RwvLWQ_eFcg">
+    <contextParameter comment="" name="sonoma_food_inspection_File" prompt="sonoma_food_inspection_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Kumar Mehul/Downloads/DADABI/Sonoma Food Inspection/Food_Facility_Inspections.csv" xmi:id="_ZvN9h3tpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_Encoding" prompt="sonoma_food_inspection_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_ZvN9iHtpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_Header" prompt="sonoma_food_inspection_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_ZvN9iXtpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_FieldSeparator" prompt="sonoma_food_inspection_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_ZvN9intpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_RowSeparator" prompt="sonoma_food_inspection_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_ZvN9i3tpEe6RwvLWQ_eFcg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_ZvN9jHtpEe6RwvLWQ_eFcg">
+    <contextParameter comment="" name="sonoma_food_inspection_File" prompt="sonoma_food_inspection_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Kumar Mehul/Downloads/DADABI/Sonoma Food Inspection/Food_Facility_Inspections.csv" xmi:id="_ZvN9jXtpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_Encoding" prompt="sonoma_food_inspection_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_ZvN9jntpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_Header" prompt="sonoma_food_inspection_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_ZvN9j3tpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_FieldSeparator" prompt="sonoma_food_inspection_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_ZvN9kHtpEe6RwvLWQ_eFcg"/>
+    <contextParameter comment="" name="sonoma_food_inspection_RowSeparator" prompt="sonoma_food_inspection_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_ZvN9kXtpEe6RwvLWQ_eFcg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_15a53c1e-3239-4aab-92ef-83d9e9d7c231"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>haQgMFJiXkKMIpp4mqUQ6hoqwLXn5Pdxr+f+KarfCyAEGKU/QDzgHc+OzXNKEwMeWsJHJCbCY59V&#13;
+KvSk/bQldA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4e4403d1-8483-41ee-a530-8065f2dfa0cf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rg9yo29hbREY64zJ3JkTSj2SG8LJppILd9ElLkhdhEBlaprRrjzQQHeB59/RD1CT4IFe4n3rs6nA&#13;
+2ZxCvIu8Mg==</DigestValue></Reference></SignedInfo><SignatureValue>VvRg5N+JC08nG1OzmK4uoFj5gqYyQ52di3qG3QhaExkxWo2KcYGaJx8FKTTTVMmHSx+8dOprSpSQ&#13;
+d4A8HNd7L5Gttaqkm4gBO/wDI2Lo5ZzksNAa34I6UnaeXD61QfEWFpLSrygkr3Gi9MAQ0zcrWrOY&#13;
+xsWiW/RN5YzoPcyk7coS3781FKZP3KaLprJlVpUm0oX4qzbn7iGFhWI/hi7N/nk7ZdpTk4L3+6dx&#13;
+NJhgJDC/z1WR9lYFaQAbQuxEtn2PLTtY7813bijqAAij+fs2ieY+kyYL2mjX2kG7fZ2scBDIVYDd&#13;
+t/mt3LVRd3QeP3uJwzocGuRw3PFPvEVsiSbDMQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4e4403d1-8483-41ee-a530-8065f2dfa0cf" Target="#_15a53c1e-3239-4aab-92ef-83d9e9d7c231"><Timestamp>2023-11-04 23:25:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

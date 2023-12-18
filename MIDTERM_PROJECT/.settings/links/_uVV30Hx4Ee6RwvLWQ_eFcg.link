@@ -1,0 +1,48 @@
+{
+  "itemId" : "_uVV30Hx4Ee6RwvLWQ_eFcg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_IE7QkHtqEe6RwvLWQ_eFcg",
+    "parameterList" : [ {
+      "id" : "_IFFBkXtqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Login"
+    }, {
+      "id" : "_IFFBkntqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Server"
+    }, {
+      "id" : "_IFFBk3tqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Password"
+    }, {
+      "id" : "_IFFBlHtqEe6RwvLWQ_eFcg",
+      "name" : "mysql_AdditionalParams"
+    }, {
+      "id" : "_IFFBlXtqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Port"
+    }, {
+      "id" : "_IFFBlntqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Database"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_IE7QkHtqEe6RwvLWQ_eFcg",
+    "parameterList" : [ {
+      "id" : "_IFFBmHtqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Login"
+    }, {
+      "id" : "_IFFBmXtqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Server"
+    }, {
+      "id" : "_IFFBmntqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Password"
+    }, {
+      "id" : "_IFFBm3tqEe6RwvLWQ_eFcg",
+      "name" : "mysql_AdditionalParams"
+    }, {
+      "id" : "_IFFBnHtqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Port"
+    }, {
+      "id" : "_IFFBnXtqEe6RwvLWQ_eFcg",
+      "name" : "mysql_Database"
+    } ]
+  } ]
+}
