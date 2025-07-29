@@ -47,7 +47,7 @@ This project focuses on developing a comprehensive data analytics and reporting 
 
 ## Technologies Used
 
-- **SQL Server and MySQL**: For database management.
+- **Azure SQL Databases and MySQL**: For database management.
 - **Talend**: For ETL processes.
 - **Tableau**: For data visualization.
 - **ER/Studio**: For data modeling.
