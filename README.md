@@ -36,7 +36,7 @@ This project focuses on developing a comprehensive data analytics and reporting 
 
 ### BI Dashboard Development
 
-- **Dashboards**: Creating dashboards in Power BI and Tableau.
+- **Dashboards**: Creating dashboards in Tableau.
 - **Insights**: Providing insights on inspection results, violation categories, and trends over time.
 
 ### Enhanced Analytics Features
@@ -49,7 +49,7 @@ This project focuses on developing a comprehensive data analytics and reporting 
 
 - **SQL Server and MySQL**: For database management.
 - **Talend**: For ETL processes.
-- **Power BI and Tableau**: For data visualization.
+- **Tableau**: For data visualization.
 - **ER/Studio**: For data modeling.
 
 ## Repository Structure
@@ -88,8 +88,3 @@ The `Food_Facility_Inspections.csv` file contains the following columns:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Sonoma County Department of Health Services for providing the inspection data.
-- Team members for their contributions to the project.
